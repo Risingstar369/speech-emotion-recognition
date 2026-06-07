@@ -1,5 +1,8 @@
 import os
 import numpy as np
+np.random.seed(42)
+import random
+random.seed(42)
 import librosa
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
